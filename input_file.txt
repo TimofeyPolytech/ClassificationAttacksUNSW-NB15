@@ -1,0 +1,5 @@
+[input]
+models_for_check = Exploits, Generic, Reconnaissance
+threshold = 0.9
+directory_with_test_files = C:\Users\bossz\PycharmProjects\diplom\test_data
+time_to_check_mew_files = 10
