@@ -3,7 +3,9 @@ The system works to recognize three attacks:
 - Exploits;
 - Generic;
 - Reconnaissance.
+
 The trained models are presdtated in this repository.
+
 The system works as follows:
 1) first, the "input.txt" file is filled in, in which it is necessary to specify:
 - the name of the models on which we want to test the traffic;
@@ -17,5 +19,6 @@ The system works as follows:
 - destination port;
 - model_name;
 - model_probability.
+
 Models were trained using CatBoost, features were selected using feature importance.
 On test data, the system shows an accuracy ≈95% for multiclass classification of three attacks among normal traffic.
